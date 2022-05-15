@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Text2them' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Text2them
+  pod 'SideMenu'
+	pod 'Alamofire'
+	pod 'SVProgressHUD'
+	pod 'IQKeyboardManager’
+	pod 'SwiftyJSON'
+  pod 'SDWebImage', '~> 4.0'
+  
+#  pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
+
+  
+end
